@@ -47,5 +47,5 @@ CREATE TABLE IF NOT EXISTS "common"."ExchangeCurrencyMappings"
     "Mapping"          text
 );
 
-INSERT INTO IF NOT EXISTS "common"."ExchangeCurrencyMappings"
+INSERT INTO "common"."ExchangeCurrencyMappings"
 VALUES (DEFAULT, 66, 77, 'mapping');
